@@ -27,7 +27,7 @@ public class PasswordVerifierTwo {
         catch (Exception exception) {
             System.out.println(exception.getMessage());
         }
-       
+       sc.close();
     }
     
 
